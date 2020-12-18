@@ -1,7 +1,6 @@
 <?php
 $code = $_POST['send_code'];
 $email = $_POST['send_email'];
-
 require_once('PHPMailer/PHPMailerAutoload.php');
 
 $mail = new PHPMailer();

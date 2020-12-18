@@ -125,7 +125,7 @@
         });
 
         function setCountDown() {
-            var timeLeft = 45;
+            var timeLeft = 90;
             var timerId = setInterval(countdown, 1000);
             var elem = document.getElementById('some_div');
 
