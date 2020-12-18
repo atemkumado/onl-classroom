@@ -12,7 +12,7 @@ $mail->Host = 'smtp.gmail.com';
 $mail->Port = '465';
 $mail->isHTML(true);
 $mail->Username = 'longnt26042000@gmail.com';
-$mail->Password = 'longpro12';
+$mail->Password = 'longpro12@';
 $mail->SetFrom('no-reply@tdtu.edu.vn', 'Admin');
 $mail->Subject = 'TDTU Classroom';
 $mail->Body = 'Enter your confirmation code to create your account: '. $code;
