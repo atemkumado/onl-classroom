@@ -1,8 +1,13 @@
 <?php
-$severname = "localhost";
-$username = "root";
-$password = "";
-$dbname = "classroom";
+// $severname = "localhost"; JUST ONLY USE FOR LOCAL HOST SERVER
+// $username = "root";
+// $password = "";
+// $dbname = "classroom";
+
+$severname = "remotemysql.com";
+$username = "BGXa3Czsb8";
+$password = "3mAMrgtIdf";
+$dbname = "BGXa3Czsb8";
 
 $conn = new mysqli($severname, $username, $password, $dbname); // mysqli_connect()
 

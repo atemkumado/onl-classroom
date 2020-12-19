@@ -32,7 +32,7 @@ CREATE TABLE `activity` (
   `course_id` varchar(10) NOT NULL,
   `description` text NOT NULL,
   `file` text DEFAULT NULL,
-  `time` date NOT NULL DEFAULT current_timestamp()
+  `time` DATETIME DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
@@ -102,7 +102,7 @@ CREATE TABLE `comment` (
   `id` int(11) NOT NULL,
   `user_id` int(11) NOT NULL,
   `content` varchar(250) NOT NULL,
-  `date` date NOT NULL DEFAULT current_timestamp()
+  `date` DATETIME DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
@@ -126,7 +126,7 @@ CREATE TABLE `course` (
   `name` varchar(50) NOT NULL,
   `gr` varchar(30) NOT NULL,
   `shift` varchar(30) NOT NULL,
-  `background` text NOT NULL DEFAULT 'img/Backtoschool.jpg'
+  `background` text  NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
